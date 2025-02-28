@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <script src="note-item.js"></script>
+    <script src="note-form.js"></script>
+    <script src="app-bar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <app-bar></app-bar>
+    <main>
+      <note-form></note-form>
+      <div class="notes-grid" id="notesContainer"></div>
+    </main>
+  </body>
+</html>
