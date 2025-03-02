@@ -103,7 +103,6 @@ class NotesApp {
       noteElement.setAttribute("archived", note.archived);
       this.notesContainer.appendChild(noteElement);
 
-      // Animasi muncul dengan GSAP
       gsap.from(noteElement, { opacity: 0, y: 20, duration: 0.5 });
     });
   }

@@ -17,7 +17,7 @@ module.exports = {
     ],
   },
   devServer: {
-    static: "./", // Pastikan Webpack tahu lokasi file statis
+    static: "./",
     compress: true,
     port: 8000,
   },
